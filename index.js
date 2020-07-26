@@ -47,4 +47,6 @@ function insertNodeAt(index, newAddress, linkedList, collection) {
 
 function deleteNodeAt(index, linkedList, collection) {
   const nodeToBeDeleted = nodeAt(index, linkedList, collection);
+  let nextNode = nodeAt(index + 1, linkedList, collection);
+
 }
