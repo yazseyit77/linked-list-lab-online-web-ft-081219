@@ -22,3 +22,7 @@ function nodeAt(index,linkedList, collection) {
 function addressAt(index, linkedList, collection){
   const currentNode = nodeAt(index, linkedList, collection)
 }
+
+function findKeyValue(collection, value){
+  return Object.keys(collection).find(key => collection[key] === value)
+}
