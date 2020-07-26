@@ -18,3 +18,7 @@ function nodeAt(index,linkedList, collection) {
   }
   return currentNode;
 }
+
+function addressAt(index, linkedList, collection){
+  const currentNode = nodeAt(index, linkedList, collection)
+}
