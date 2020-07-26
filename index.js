@@ -40,7 +40,7 @@ function indexAt(node, collection, linkedList){
 
 function insertNodeAt(index, newAddress, linkedList, collection) {
   const newNode = collection[newAddress];
-  newNode.next = addressAt(index, linkedList);
+  newNode.next = addressAt(index, linkedList, collection);
   const previousNode = nodeAt(index - 1, collection);
   previousNode.next = newAddress
 }
