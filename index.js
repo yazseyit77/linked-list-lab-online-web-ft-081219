@@ -37,3 +37,7 @@ function indexAt(node, collection, linkedList){
   }
   return i;
 }
+
+function insertNodeAt(index, newAddress, linkedList, collection) {
+  
+}
