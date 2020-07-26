@@ -30,5 +30,6 @@ function findKeyValue(collection, value){
 
 function indexAt(node, collection, linkedList){
   let currentNode = headNode(linkedList, collection);
+  let i = 0;
 
 }
