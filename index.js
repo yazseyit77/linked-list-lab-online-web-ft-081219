@@ -27,3 +27,8 @@ function addressAt(index, linkedList, collection){
 function findKeyValue(collection, value){
   return Object.keys(collection).find(key => collection[key] === value)
 }
+
+function indexAt(node, collection, linkedList){
+  let currentNode = headNode(linkedList, collection);
+  
+}
