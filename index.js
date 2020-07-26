@@ -46,5 +46,5 @@ function insertNodeAt(index, newAddress, linkedList, collection) {
 }
 
 function deleteNodeAt(index, linkedList, collection) {
-  
+
 }
