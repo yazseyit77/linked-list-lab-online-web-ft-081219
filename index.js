@@ -17,4 +17,4 @@ function nodeAt(index,linkedList, collection) {
     currentNode = next(currentNode, collection);
   }
   return currentNode;
-}   
+}
