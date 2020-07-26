@@ -39,5 +39,5 @@ function indexAt(node, collection, linkedList){
 }
 
 function insertNodeAt(index, newAddress, linkedList, collection) {
-  const newNode = collection[newAddress]
+  const newNode = collection[newAddress];
 }
